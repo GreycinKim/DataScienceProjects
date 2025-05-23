@@ -26,8 +26,8 @@ if shipstation_file and invoice_file:
     df_invoice = pd.read_csv(invoice_file)
 
     # Preview raw columns
-    st.write("📄 ShipStation Columns:", list(df_ship.columns))
-    st.write("📄 FedEx Invoice Columns:", list(df_invoice.columns))
+    # st.write("📄 ShipStation Columns:", list(df_ship.columns))
+    # st.write("📄 FedEx Invoice Columns:", list(df_invoice.columns))
 
     # Display previews
     st.subheader("📄 ShipStation Preview")
